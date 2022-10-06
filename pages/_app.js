@@ -5,7 +5,6 @@ export default function App({ Component, pageProps }) {
     <div>
       <NavBar />
       <Component {...pageProps} />
-      <span>hi~~</span>
       <style jsx global>{`
         a {
           color: green;
